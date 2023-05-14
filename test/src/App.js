@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './styles.css';
+import logo from './one.png'
 
 function App() {
   
@@ -34,6 +35,9 @@ function App() {
           <p key={i}>{member}</p>
         ))
       )}
+
+      <img src={logo} className="App-logo" alt="logo" />
+
     </div>
   )
 }
